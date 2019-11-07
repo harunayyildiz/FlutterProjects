@@ -1,0 +1,114 @@
+//int sayac = 0;
+			//int a, b, c;
+			//Console.Write("1. Sayıyı giriniz: ");
+			//a = Convert.ToInt32(Console.ReadLine());
+			//Console.Write("2. Sayıyı giriniz: ");
+			//b = Convert.ToInt16(Console.ReadLine());
+			//Console.Write("3. Sayıyı giriniz: ");
+			//c = Convert.ToInt16(Console.ReadLine());
+			//int toplam = a + b + c;
+			//for (int i = 2; i < toplam - 1; i++)
+			//{
+			//	if (toplam % i == 0 && toplam >= 2)
+			//	{
+			//		sayac++;
+			//	}
+			//}
+			//if (sayac == 0 && toplam >= 2)
+			//{
+			//	Console.WriteLine("sayi asaldır");
+			//	double x = (Math.Exp(a + b + c) / (1 + Math.Pow(c, 5) + a * b));
+			//	double kok = Math.Sqrt(Math.Pow(a, 2) + Math.Cos(2 * b));
+			//	double y = kok / 4;
+			//	double k = Math.Pow(x, y) + Math.Pow(y, x);
+			//	Console.WriteLine(k);
+			//}
+			//else
+			//{
+			//	Console.WriteLine("sayi asal değildir");
+			//}
+
+			//2.soru ☾✫
+			//int toplam1 = 0;
+			//for (int i = 1; i <= 10; i++)
+			//{
+
+			//	for (int j = 1; j <= 10; j++)
+			//	{
+			//		toplam1 = toplam1 + i * j;
+			//	}
+			//}
+			//Console.WriteLine(toplam1);
+
+
+			//Console.Write("satır boyutunu giriniz : ");
+			//int satir = int.Parse(Console.ReadLine());
+			//Console.Write("sütun boyutunu giriniz : ");
+			//int sutun = int.Parse(Console.ReadLine());
+			//int[,] matris = new int[satir, sutun];
+			//int i, j;
+			//for (i = 0; i <= satir - 1; i++)
+			//{
+			//	for (j = 0; j <= sutun - 1; j++)
+			//	{
+			//		Console.Write("{0}x{1} elemanı gır = ", i + 1, j + 1);
+			//		matris[i, j] = Convert.ToInt32(Console.ReadLine());
+			//	}
+			//}
+			//Console.WriteLine(" ");
+			//for (i = 0; i <= satir - 1; i++)
+			//{
+			//	for (j = 0; j <= sutun - 1; j++)
+			//	{
+			//		Console.Write("    {0}\t", matris[i, j]);
+			//	}
+			//	Console.WriteLine();
+			//}
+			//Console.WriteLine("\n--- Transpozu ---");
+			//Console.WriteLine();
+			//for (j = 0; j <= sutun - 1; j++)
+			//{
+			//	for (i = 0; i <= satir - 1; i++)
+			//	{
+			//		Console.Write("    {0}\t", matris[i, j]);
+			//	}
+			//	Console.WriteLine();
+			//}
+			//Console.ReadLine();
+
+			//Console.Write("n değerini giriniz: ");
+			//int n = Convert.ToInt32(Console.ReadLine());
+			//int toplam = 0;
+			//int toplamlar = 0;
+			//for (int i = 1; i <= n; i++)
+			//{
+			//	Console.Write(i+"sayiyi giriniz:");	
+			//	toplam = Convert.ToInt32(Console.ReadLine());
+			//	toplamlar = toplamlar + toplam;
+			//}
+			//if (toplamlar.ToString().Length == 3)
+			//{
+			//	Console.WriteLine("matematik");
+
+			//}
+			//else {
+			//	Console.WriteLine("bilgisayar");
+			//}
+			//int sayac;
+			//Console.Write("Saayac Girin : ");
+			//sayac = Convert.ToInt32(Console.ReadLine());
+			//int sayi = 0;
+			//int sonuc = 0;
+			//for (int i = 1; i <=sayac; i++)
+			//{
+			//	Console.Write("Sayı Girin : ");
+			//	sayi = Convert.ToInt32(Console.ReadLine());
+			//	while (sayi > 0)
+			//	{
+			//		sonuc += (sayi % 10);
+			//		sayi = sayi / 10;
+			//	}
+				
+			//}
+			//Console.WriteLine("Girdiğiniz Sayının Rakamları Toplamı : " + sonuc);
+		
